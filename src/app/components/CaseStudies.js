@@ -45,70 +45,74 @@ export function CaseStudies() {
           </p>
         </div>
 
-        {/* Case Studies Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {caseStudies.map((study) => (
-            <div key={study.id} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-              {/* Industry Tag */}
-              <div className="px-6 pt-6">
-                <span className="inline-block bg-blue-100 text-blue-800 text-sm font-semibold px-3 py-1 rounded-full">
-                  {study.industry}
-                </span>
-              </div>
+       {/* Case Studies Grid */}
+<div className="grid grid-cols-1 lg:grid-cols-3 gap-8 auto-rows-fr">
+  {caseStudies.map((study) => (
+    <div
+      key={study.id}
+      className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col min-h-[450px]"
+    >
+      {/* Industry Tag */}
+      <div className="px-6 pt-6">
+        <span className="inline-block bg-blue-100 text-blue-800 text-sm font-semibold px-3 py-1 rounded-full">
+          {study.industry}
+        </span>
+      </div>
 
-              {/* Content */}
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-4 leading-tight">{study.title}</h3>
+      {/* Content */}
+      <div className="p-6 flex flex-col flex-1">
+        <h3 className="text-xl font-bold text-gray-900 mb-4 leading-tight">{study.title}</h3>
 
-                {/* Metric Highlight */}
-                <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-4 mb-4">
-                  <div className="text-center">
-                    <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-1">
-                      {study.result}
-                    </div>
-                    <div className="text-sm text-gray-600 font-semibold">{study.metric}</div>
-                  </div>
-                </div>
-
-                <p className="text-gray-600 leading-relaxed mb-4">{study.description}</p>
-
-                {/* Demo Embeds */}
-                {study.demoType === 'iframe' && (
-                  <iframe
-                    src={study.demoUrl}
-                    className="w-full h-64 rounded-md border border-gray-300"
-                    title={`${study.title} Demo`}
-                  ></iframe>
-                )}
-                {study.demoType === 'audio' && (
-                  <audio controls className="w-full rounded-md mt-4">
-                    <source src={study.demoUrl} type="audio/mpeg" />
-                    Your browser does not support the audio element.
-                  </audio>
-                )}
-                {study.demoType === 'video' && (
-                  <video controls className="w-full rounded-md mt-4">
-                    <source src={study.demoUrl} type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
-                )}
-                {study.demoType === 'link' && (
-                  <a
-                    href={study.demoUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block mt-4 text-blue-600 hover:underline"
-                  >
-                    View Demo
-                  </a>
-                )}
-              </div>
-
-              {/* Bottom gradient border */}
-              <div className="h-1 bg-gradient-to-r from-blue-500 to-purple-500"></div>
+        {/* Metric Highlight */}
+        <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-4 mb-4 flex-shrink-0">
+          <div className="text-center">
+            <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-1">
+              {study.result}
             </div>
-          ))}
+            <div className="text-sm text-gray-600 font-semibold">{study.metric}</div>
+          </div>
         </div>
+
+        <p className="text-gray-600 leading-relaxed mb-4 flex-grow">{study.description}</p>
+
+        {/* Demo Embeds */}
+        {study.demoType === 'iframe' && (
+          <iframe
+            src={study.demoUrl}
+            className="w-full h-48 rounded-md border border-gray-300"
+            title={`${study.title} Demo`}
+            style={{ maxHeight: '180px' }}
+          />
+        )}
+        {study.demoType === 'audio' && (
+          <audio controls className="w-full rounded-md mt-4">
+            <source src={study.demoUrl} type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+        )}
+        {study.demoType === 'video' && (
+          <video controls className="w-full rounded-md mt-4 max-h-44">
+            <source src={study.demoUrl} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        )}
+        {study.demoType === 'link' && (
+          <a
+            href={study.demoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block mt-4 text-blue-600 hover:underline"
+          >
+            View Demo
+          </a>
+        )}
+      </div>
+
+      {/* Bottom gradient border */}
+      <div className="h-1 bg-gradient-to-r from-blue-500 to-purple-500"></div>
+    </div>
+  ))}
+</div>
 
         {/* Call to Action */}
         <div className="text-center mt-16">

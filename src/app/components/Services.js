@@ -21,7 +21,7 @@ export function Services() {
     },
     {
       id: 2,
-      title: "Voice Cloning &amp; Branding",
+      title: "Voice Cloning Branding",
       description:
         "Create authentic, memorable interactions with custom voice cloning to fit your brand&apos;s personality.",
       isPrimary: false,

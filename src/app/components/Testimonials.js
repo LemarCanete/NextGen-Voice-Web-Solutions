@@ -4,14 +4,14 @@ export function Testimonials() {
   const testimonials = [
     {
       id: 1,
-      text: "NextGen&apos;s AI voice assistant revolutionized our customer experience by handling complex queries naturally while maintaining our brand voice.",
+      text: "NextGen AI voice assistant revolutionized our customer experience by handling complex queries naturally while maintaining our brand voice.",
       client: "Sarah Johnson",
       role: "CEO",
       company: "TechFlow Solutions",
     },
     {
       id: 2,
-      text: "The seamless voice-automation integrations and new website boosted our lead conversions by 35%. The ROI was &ldquo;immediate&rdquo; and impressive.",
+      text: "The seamless voice-automation integrations and new website boosted our lead conversions by 35%. The ROI was immediate and impressive.",
       client: "Michael Chen",
       role: "Marketing Director",
       company: "GrowthLab",
