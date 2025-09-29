@@ -4,14 +4,14 @@ export function Testimonials() {
   const testimonials = [
     {
       id: 1,
-      text: "NextGen's AI voice assistant revolutionized our customer experience by handling complex queries naturally while maintaining our brand voice.",
+      text: "NextGen&apos;s AI voice assistant revolutionized our customer experience by handling complex queries naturally while maintaining our brand voice.",
       client: "Sarah Johnson",
       role: "CEO",
       company: "TechFlow Solutions",
     },
     {
       id: 2,
-      text: "The seamless voice-automation integrations and new website boosted our lead conversions by 35%. The ROI was immediate and impressive.",
+      text: "The seamless voice-automation integrations and new website boosted our lead conversions by 35%. The ROI was &ldquo;immediate&rdquo; and impressive.",
       client: "Michael Chen",
       role: "Marketing Director",
       company: "GrowthLab",
@@ -42,7 +42,10 @@ export function Testimonials() {
 
               {/* Testimonial Content */}
               <div className="pt-4">
-                <p className="text-gray-700 text-lg leading-relaxed mb-6 italic">"{testimonial.text}"</p>
+                <p className="text-gray-700 text-lg leading-relaxed mb-6 italic">
+                  &quot;{testimonial.text}&quot;
+                </p>
+
 
                 {/* Client Info */}
                 <div className="flex items-center">
@@ -51,9 +54,7 @@ export function Testimonials() {
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900">{testimonial.client}</div>
-                    <div className="text-sm text-gray-600">
-                      {testimonial.role} at {testimonial.company}
-                    </div>
+                    <div className="text-sm text-gray-600">{testimonial.role} at {testimonial.company}</div>
                   </div>
                 </div>
               </div>

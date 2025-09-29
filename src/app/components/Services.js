@@ -5,29 +5,42 @@ export function Services() {
     {
       id: 1,
       title: "Custom AI Voice Agent Development",
-      description: "Advanced voice agents for reception, sales, support & lead qualification—using cutting-edge platforms like Vapi, Twilio, and 11labs.",
+      description:
+        "Advanced voice agents for reception, sales, support &amp; lead qualification—using cutting-edge platforms like Vapi, Twilio, and 11labs.",
       isPrimary: true,
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"
+          />
         </svg>
       ),
     },
     {
       id: 2,
-      title: "Voice Cloning & Branding",
-      description: "Create authentic, memorable interactions with custom voice cloning to fit your brand's personality.",
+      title: "Voice Cloning &amp; Branding",
+      description:
+        "Create authentic, memorable interactions with custom voice cloning to fit your brand&apos;s personality.",
       isPrimary: false,
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+          />
         </svg>
       ),
     },
     {
       id: 3,
       title: "Smart Automation Workflows",
-      description: "Streamline workflows with tools like n8n and Make.com—enhancing your AI voice agents with dynamic automation.",
+      description:
+        "Streamline workflows with tools like n8n and Make.com—enhancing your AI voice agents with dynamic automation.",
       isPrimary: false,
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -38,22 +51,34 @@ export function Services() {
     {
       id: 4,
       title: "Website Creation with AI Features",
-      description: "Modern, responsive websites infused with AI functionalities and SEO best practices to showcase your business online effectively.",
+      description:
+        "Modern, responsive websites infused with AI functionalities and SEO best practices to showcase your business online effectively.",
       isPrimary: false,
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9" />
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9"
+          />
         </svg>
       ),
     },
     {
       id: 5,
-      title: "Ongoing Support & Optimization",
-      description: "Retainers available for updates, scaling, and continuous AI workflow optimization.",
+      title: "Ongoing Support &amp; Optimization",
+      description:
+        "Retainers available for updates, scaling, and continuous AI workflow optimization.",
       isPrimary: false,
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+          />
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
         </svg>
       ),
@@ -88,9 +113,11 @@ export function Services() {
                 </div>
               )}
 
-              <div className={`w-12 h-12 rounded-lg flex items-center justify-center mb-4 ${
-                service.isPrimary ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-600'
-              }`}>
+              <div
+                className={`w-12 h-12 rounded-lg flex items-center justify-center mb-4 ${
+                  service.isPrimary ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-600'
+                }`}
+              >
                 {service.icon}
               </div>
 
@@ -105,7 +132,7 @@ export function Services() {
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">Ready to Get Started?</h3>
             <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-              Let's discuss how our AI voice solutions can transform your business operations and enhance customer experiences.
+              Let&apos;s discuss how our AI voice solutions can transform your business operations and enhance customer experiences.
             </p>
             <button
               onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}

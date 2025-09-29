@@ -48,7 +48,7 @@ export function Contact() {
         <div className="max-w-3xl mx-auto">
           {/* Section header */}
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Let's Discuss Your Project</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Let&apos;s Discuss Your Project</h2>
             <p className="text-xl text-gray-600">
               Ready to transform your business with AI voice solutions? Get in touch to discuss your needs.
             </p>
@@ -160,7 +160,7 @@ export function Contact() {
                     <svg className="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    <span className="text-green-700 font-semibold">Message sent successfully! We'll get back to you soon.</span>
+                    <span className="text-green-700 font-semibold">Message sent successfully! We&apos;ll get back to you soon.</span>
                   </div>
                 </div>
               )}
