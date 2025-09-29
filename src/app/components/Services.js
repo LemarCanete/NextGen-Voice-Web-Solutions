@@ -6,7 +6,7 @@ export function Services() {
       id: 1,
       title: "Custom AI Voice Agent Development",
       description:
-        "Advanced voice agents for reception, sales, support &amp; lead qualification—using cutting-edge platforms like Vapi, Twilio, and 11labs.",
+        "Advanced voice agents for reception, sales, support lead qualification—using cutting-edge platforms",
       isPrimary: true,
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -67,7 +67,7 @@ export function Services() {
     },
     {
       id: 5,
-      title: "Ongoing Support &amp; Optimization",
+      title: "Ongoing Support Optimization",
       description:
         "Retainers available for updates, scaling, and continuous AI workflow optimization.",
       isPrimary: false,

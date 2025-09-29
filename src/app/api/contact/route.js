@@ -1,4 +1,3 @@
-// src/pages/api/contact.js (or src/app/api/contact/route.js for app router)
 
 export async function POST(request) {
   try {
